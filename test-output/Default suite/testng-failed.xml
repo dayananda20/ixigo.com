@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="test.TestRun">
+        <methods>
+          <include name="validating_search"/>
+          <include name="enter_search_details"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.TestRun -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
